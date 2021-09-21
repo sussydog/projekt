@@ -1,0 +1,262 @@
+using System;
+
+namespace projekt
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            if (Console.BackgroundColor == ConsoleColor.Black)
+            {
+                Console.BackgroundColor = ConsoleColor.Black;
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.Title = "Hello";
+                Console.Clear();
+            }
+
+            char Answer;
+            string Ans;
+
+            Console.Write("Do you want to hear a story?(1=Yes / 0=No)? ");
+            Ans = Console.ReadLine();
+            Answer = char.Parse(Ans);
+
+            if (Answer == '0') {
+                Console.WriteLine("\nGoodbye"); System.Threading.Thread.Sleep(1000); Console.WriteLine("."); System.Threading.Thread.Sleep(1000); Console.WriteLine(".."); System.Threading.Thread.Sleep(1000); Console.WriteLine(":("); System.Threading.Thread.Sleep(2500); Environment.Exit(0);
+
+            }
+
+            if (Answer == '1')
+            {
+                Console.WriteLine("\nThe story will begin shortly. \nUse fullscreen for optimal experience.");
+
+            }
+
+
+            string characterName = "Jeff";
+            int characterAge;
+            characterAge = 17;
+            bool isAlive = true;
+            bool dead = true;
+            string phrase = "Is he Alive? ";
+            string carModel = "2017 Kia Picanto VF";
+            string currentSpeed = "187 km/h";
+            string clock = "11:42 PM";
+
+            System.Threading.Thread.Sleep(2500);
+            Console.WriteLine("");
+            Console.WriteLine("This is him");
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine("His name is " + characterName);
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine("He is " + characterAge + " years old.");
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine(phrase + isAlive + ". for now");
+            System.Threading.Thread.Sleep(2000);
+            Console.WriteLine("the story continues.....");
+
+            Console.WriteLine("                          .            /                                                         .                                        ");
+            Console.WriteLine("                                      /                                                                                                  ");
+            Console.WriteLine("                                   __|__                                        .                                                       ");
+            Console.WriteLine("                                  |_./._|                                                                                               ");
+            Console.WriteLine("             .                      |\\|                                                            .                                    ");
+            Console.WriteLine("                         ___________|/|______________       ____     ___.                                          =======              ");
+            Console.WriteLine("                        /____________________________\\     /._..\\   /. . \\                                         |  \\@/               ");
+            Console.WriteLine("                        |____________________________|     |._,.,|  |,._ .|                                        |                    ");
+            Console.WriteLine("                        |_________ __ _______________|      \\._,/    \\._./                                         |                    ");
+            Console.WriteLine("    Him  --->  O        |__[_]____|  |____[_]________|       | |      | |            ________                      |                    ");
+            Console.WriteLine("              /|/       |_________|. |_______________|       | |      | |        ___|[]   [] |_                    |                    ");
+            Console.WriteLine("_____________ _|_ ______|_________|__|_______________|_______|_|______|_|_______|_O___________O|___________________|________________________________________________________");
+
+            System.Threading.Thread.Sleep(5000);
+
+
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+
+            Console.WriteLine("Here is " + characterName);
+            Console.WriteLine("He is driving his " + carModel);
+            Console.WriteLine("The speedometer reads " + currentSpeed);
+            Console.WriteLine("His car is driving on bald tyres... it rained 20 minutes ago");
+
+            Console.WriteLine("                                                                                                                     .                                                    ");
+            Console.WriteLine("                                          .                                                                                                                               ");
+            Console.WriteLine("                                                                                                                                                  ´.                       ");
+            Console.WriteLine("                .                                                                                                                                                         ");
+            Console.WriteLine("                                                              .                                                           .                                               ");
+            Console.WriteLine("                                                                                             .                                                                            ");
+            Console.WriteLine("            .                                                                                                                                      .                      ");
+            Console.WriteLine("                     _______                         .                          .                              .                                                              ");
+            Console.WriteLine("                         \\                                                                                                                                                  ");
+            Console.WriteLine("                          \\_________                                                                                                                                      ");
+            Console.WriteLine("                        __: []  [Ø] :____                                                                                                                                 ");
+            Console.WriteLine("_______________________|_O_____________O_|_________________________________________________________________________________________________________________________________");
+
+            System.Threading.Thread.Sleep(15000);
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+
+            Console.WriteLine("Here is " + characterName + " again");
+            Console.WriteLine("He just passed an 80 km/h speed limit");
+            Console.WriteLine("There is a big tree infront of him on the unlit road");
+            Console.WriteLine(characterName + " is tired");
+            Console.WriteLine("It is " + clock);
+
+            Console.WriteLine("                                                                                                                   .                                                      ");
+            Console.WriteLine("                  .                                                                                             ____                                                       ");
+            Console.WriteLine("                                                      .                   .                                    /    \\                   .                .                ");
+            Console.WriteLine("                                                                                                               |      |                                                    ");
+            Console.WriteLine("                                .                                                   .                          |      |                           .                        ");
+            Console.WriteLine("          .                                                                                                     \\     /                                                     ");
+            Console.WriteLine("                                _                                                                                \\   /                  .                                   ");
+            Console.WriteLine("                               /  \\                             _______                                            | |                                                       ");
+            Console.WriteLine("                               |80|                                 \\                                             | |                                                       ");
+            Console.WriteLine("                               \\  /                                  \\_________                                   | |                                                       ");
+            Console.WriteLine("                                 |                                 __: []  [Ø] :____                             | |                                                       ");
+            Console.WriteLine("_________________________________|________________________________|_O_____________O_|____________________________|_|_______________________________________________________");
+
+
+            System.Threading.Thread.Sleep(15000);
+
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            Console.WriteLine("Jeff does not see the approaching tree");
+            Console.WriteLine("Jeff hits the approacing tree");
+
+            Console.WriteLine("                                                                                                                   .                                                             ");
+            Console.WriteLine("                  .                                                                ____                                                                                         ");
+            Console.WriteLine("                                                      .                   .        /    \\                   .                .                                                 ");
+            Console.WriteLine("                                                                                  |      |                                                                                      ");
+            Console.WriteLine("                                .                                           \\    |      |                           .                                                          ");
+            Console.WriteLine("          .                                                                  \\    \\     /                                                                                      ");
+            Console.WriteLine("                                _                                             \\     \\   /                  .                                                                    ");
+            Console.WriteLine("                               /  \\                             _______       \\    | |                                                                                        ");
+            Console.WriteLine("                               |80|                                 \\           |   | |                                                                                        ");
+            Console.WriteLine("                               \\  /                                  \\_________\\    | |                                                                                       ");
+            Console.WriteLine("                                 |                                 __: []  [X] :__\\_ | |                                                                                        ");
+            Console.WriteLine("_________________________________|________________________________|_O_____________O_||_|____________________________________________________________________________________");
+
+            System.Threading.Thread.Sleep(2500);
+
+            Console.WriteLine("....");
+            System.Threading.Thread.Sleep(1500);
+            Console.WriteLine(".......");
+            System.Threading.Thread.Sleep(1500);
+            Console.WriteLine(".........");
+            System.Threading.Thread.Sleep(1500);
+            Console.WriteLine("...........");
+
+            Console.WriteLine("Jeff was " + characterAge);
+
+            System.Threading.Thread.Sleep(5000);
+
+            Console.WriteLine("Jeff is dead? " + dead);
+
+            System.Threading.Thread.Sleep(5000);
+
+            Console.WriteLine("Fin.");
+            Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+        }
+    }
+}
